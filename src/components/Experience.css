@@ -1,0 +1,14 @@
+.Experience {
+  padding: 20px;
+  max-width: 200px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+.Experience label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 500px;
+    padding: 8px;
+    margin-left: -22px;
+}

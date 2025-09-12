@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.estimate {
+  width: 100%;
+
+  font-family: Arial, sans-serif;
+}
+
+.about .a {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding: 60px;
+  margin-bottom: 30px;
+  background-color: #fafafa;
+}
+
+.about h2 {
+  font-size: 28px;
+  color: rgb(52, 101, 207);
+  font-weight: 500;
+}
+
+.about p {
+  font-size: 16px;
+  color: #100606;
+}
+
+.searchbtn {
+  display: flex;
+  margin-left: 300px;
+  align-items: center;
+  width: 800px;
+}
+
+button {
+  padding: 15px 20px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+.job-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 70px;
+}
+.first {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  gap: 45px;
+  margin-top: 30px;
+}
+.job-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: left;
+  line-height: 1.4;
+}
+.job-card h2 {
+  font-size: 18px;
+  color: #111;
+}
+.salary {
+ color: rgb(52, 101, 207);
+  font-weight: bold;
+}
+.links a {
+  margin-right: 10px;
+  color: #090101;
+  font-size: 14px;
+}

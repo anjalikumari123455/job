@@ -1,0 +1,27 @@
+.Salary-btn button {
+    width: 66px;
+  background-color: white;
+    padding: 8px 3px;
+    border-radius: 1px;
+    color: black;
+    border: 1px solid #ccc; 
+    cursor: pointer;
+}
+
+.Salary{
+     padding: 20px;
+  max-width: 200px;
+
+  /* background-color:white ; */
+  
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+.Salary label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 500px;
+    padding: 8px;
+    margin-left: -22px;
+}

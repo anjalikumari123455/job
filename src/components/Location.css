@@ -1,0 +1,55 @@
+.Location {
+  padding: 20px;
+  max-width: 200px;
+
+
+ 
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.Location h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.Location h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+ 
+}
+
+.radiobutton {
+
+  display: flex;
+  align-items: center;
+}
+
+.radiobutton input[type="radio"] {
+  margin-right: 1px;
+  accent-color: #007bff;
+}
+
+.radiobutton label {
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+.radiobutton input{
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.Location label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 500px;
+    padding: 8px;
+    margin-left: -22px;
+}
