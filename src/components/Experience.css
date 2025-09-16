@@ -12,3 +12,8 @@
     padding: 8px;
     margin-left: -22px;
 }
+@media (min-width: 600px) {
+  .Experience {
+    max-width: 400px; /* wider on tablets/laptops */
+  }
+}

@@ -34,25 +34,49 @@ span{
 .search-bar input { 
   padding: 12px 14px; 
    font-size: 1rem;
-  /* width: 400px; */
+ 
    border: 1px solid #ccc; 
   border-radius: 4px;
    flex:1
 }
 
- /* .search {
-  margin-top: 3px;
-  padding: 12px 24px;
-  font-size: 16px;
-  background-color: #0073e6;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;  */
-  /* width: auto;
-  margin-left: auto; */
-/* }   */
+ 
 
 .search:hover {
   background-color: #005bb5;
 } 
+@media (max-width: 1024px) {
+  .h {
+    margin-left: 60px;
+    padding: 30px 15px;
+  }
+
+  .h h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* ✅ Responsive for phones */
+@media (max-width: 768px) {
+  .h {
+    margin-left: 20px;
+    padding: 20px 10px;
+  }
+
+  .h h1 {
+    font-size: 2rem;
+  }
+
+  .h p {
+    font-size: 1rem;
+  }
+
+  .search-bar {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .search-bar input {
+    width: 100%;
+  }
+}

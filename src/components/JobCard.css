@@ -19,3 +19,33 @@
   line-height: 1.6;
   font-size: 1rem;
 }
+@media (max-width: 768px) {
+  .centerpara {
+    padding: 15px;
+    margin: 15px;
+    max-width: 100%;
+  }
+
+  .centerpara h3 {
+    font-size: 1.3rem;
+  }
+
+  .centerpara p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .centerpara {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .centerpara h3 {
+    font-size: 1.2rem;
+  }
+
+  .centerpara p {
+    font-size: 0.9rem;
+  }
+}

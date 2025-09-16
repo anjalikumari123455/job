@@ -9,6 +9,20 @@
     margin-left: 96px;
     margin-top: 20px;
 } 
-/* .footer{
-  text-align: center;
-margin: -56px}  */
+@media (max-width: 1024px) {
+  .t-button {
+    margin-left: 40px;
+  }
+}
+
+/* ✅ Phones */
+@media (max-width: 768px) {
+  .t-button {
+    margin-left: 0;
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 20px auto 0 auto; 
+    text-align: center;
+  }
+}

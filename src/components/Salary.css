@@ -25,3 +25,19 @@
     padding: 8px;
     margin-left: -22px;
 }
+@media (max-width: 768px) {
+  .Salary {
+    padding: 15px;
+  }
+
+  .Salary label {
+    font-size: 0.95rem;
+    padding: 5px 0;
+  }
+
+  .Salary-btn button {
+    width: 100%;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+}

@@ -49,3 +49,35 @@ textarea{
   text-align: center;
   margin-left: 55px;
 }
+@media (max-width: 1024px) {
+  .contain {
+    margin: 20px;
+    padding: 16px;
+  }
+
+  .sec {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contain {
+    padding: 12px;
+  }
+
+  label {
+    font-size: 0.95rem;
+  }
+
+  .form-select,
+  .select,
+  textarea {
+    width: 100%;
+  }
+
+  .btn0 {
+    margin-left: 0;
+    text-align: center;
+  }
+}

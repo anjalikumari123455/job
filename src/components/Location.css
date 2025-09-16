@@ -53,3 +53,21 @@
     padding: 8px;
     margin-left: -22px;
 }
+@media (max-width: 768px) {
+  .Location {
+    width: 90%;          /* Almost full width on tablets and phones */
+    padding: 15px;
+  }
+  
+  .Location h2 {
+    font-size: 20px;
+  }
+  
+  .Location h3 {
+    font-size: 16px;
+  }
+  
+  .radiobutton label {
+    font-size: 14px;
+  }
+}

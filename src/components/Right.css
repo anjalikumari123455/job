@@ -41,3 +41,23 @@ input[type="email"] {
 .light:hover {
   background-color: #0056b3;
 }
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+    margin: 20px auto;
+    max-width: 90%;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  input[type="email"],
+  .light {
+    font-size: 14px;
+  }
+}
